@@ -6,18 +6,20 @@ h1 {
     text-align: center;
     font-weight: bold;
     font-size: 50px;
-    color: #9fa9a3;
+    color:rgb(78, 121, 177);
     font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
-    color:#aae0d7;
+    color:rgb(78, 121, 177);
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 h3 {
-    color: #aae0d7;
+    color: rgb(78, 121, 177);
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 p {
@@ -28,7 +30,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(139, 135, 135);
 }
 
 ul li {
@@ -36,7 +38,7 @@ ul li {
 }
 
 ul li:hover {
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(78, 121, 177);
     float: left;
 }
 
@@ -50,7 +52,13 @@ ul li a {
 
 #bryan {
     display: flex;
-    align-items: flex-end;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#bpic {
+
 }
 table {
     border-collapse: collapse;
@@ -73,5 +81,40 @@ table, th, td {
 #hawaii {
    position: relative;
    display: flex;
-   
+}
+#interests {
+    float: right;
+    margin-top: .5em;
+    margin-right: 1em;
+    margin-left: .5em;
+}
+#faceshots {
+    margin-left: 2em;
+}
+
+#opensnow {
+    border: 1px solid black;
+    margin-left: 5em;
+    
+
+}
+#favoritemedia {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#websitelist {
+    font-size: 20px;
+}
+.plansmedia {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 2px 2px 2px 2px;
+}
+
+.footer {
+    font-size: 10px;
+    text-align: right;
 }
